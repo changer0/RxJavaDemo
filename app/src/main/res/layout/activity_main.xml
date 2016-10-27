@@ -24,9 +24,18 @@
         android:onClick="btnSecondTest"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-
+    <Button
+        android:text="3. Subject"
+        android:textAllCaps="false"
+        android:onClick="btnSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/main_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/main_edit_text2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
